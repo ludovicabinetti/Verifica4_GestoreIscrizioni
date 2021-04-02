@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GestoreIscrizioni.Studente">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAAAAAAIgAAABAAAABAAAEAAAAAAAAFAAAA=</HashCode>
+      <FileName>Studente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_immatricolazione" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_esami" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GestoreIscrizioni.Immatricolazione">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAQAAABAAAAAAAAAAAAAAAAAAAgAAIAgAAE=</HashCode>
+      <FileName>Immatricolazione.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GestoreIscrizioni.CorsoDiLaurea">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAEAAIAAAAAAAAAAAgAAAAAAAACQAAAABAAAAAQAA=</HashCode>
+      <FileName>CorsoDiLaurea.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_corsi" />
+      <Field Name="_studentiImmatricolati" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GestoreIscrizioni.Corso">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Corso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GestoreIscrizioni.Esame">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Esame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_corso" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
